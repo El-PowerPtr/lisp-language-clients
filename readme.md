@@ -1,13 +1,13 @@
-# AcodeTSTemplate
+# Lisp Language Clients
 
-This is the typescript version of Acode Plugin template 
+Plugin for the [Acode](https://acode.app) editor, giving support support for the following lisp variants:
+- [ ] Clojure (via [Clojure LSP](https://github.com/clojure-lsp))
 
-Read acode plugin [documentation](https://docs.acode.app/) to develop plugin for acode editor.
+- [ ] Common Lisp (via [CL-LSP](https://github.com/cxxxr/cl-lsp))
 
-## Feature
+- [ ] Racket (via [Racket Language Server](https://github.com/jeapostrophe/racket-langserver))
 
-- rich typing for acode and its global api
-- typings for acode.require api like:
-    - dialog boxes
-    - fs api
-    - file browser
+- [ ] Scheme (via [Scheme LSP Server](https://codeberg.org/rgherdt/scheme-lsp-server))
+
+> [!NOTE]
+> Acode Language Client 1.0.4 or higher needs to be in your editor for the proper work of this plugin
