@@ -5,7 +5,7 @@ class AcodePlugin {
     public baseUrl: string | undefined;
 
     async init($page: WCPage, cacheFile: any, cacheFileUrl: string): Promise<void> {
-        // Add your initialization code here
+        window.alert("i hate niggers")
     }
 
     async destroy() {
