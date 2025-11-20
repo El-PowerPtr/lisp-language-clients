@@ -1,17 +1,17 @@
 {
-  "name": "acode-plugin",
+  "name": "lisp-lsp-clients",
   "version": "1.0.0",
-  "description": "Template for Acode plugin(Typescript)",
+  "description": "LSP clients for different Lisp dialects",
   "main": "dist/main.js",
-  "repository": "https://github.com/Acode-Foundation/AcodeTSTemplate.git",
-  "author": "Acode Foundation",
-  "license": "MIT",
+  "repository": "https://github.com/El-PowerPtr/lisp-language-clients.git",
+  "author": "El Power",
+  "license": "GPL-3.0",
   "dependencies": {
     "@acode-app/types": "^1.11.2",
     "html-tag-js": "^1.8.2"
   },
   "devDependencies": {
-    "esbuild": "^0.24.2",
+    "esbuild": "^0.27.0",
     "jszip": "^3.10.1",
     "typescript": "^5.7.2"
   },
