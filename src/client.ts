@@ -12,7 +12,6 @@ export class LanguageServer {
     }
     
     setupLangaugeClient() {
-
         let socket = acodeLanguageClient.getSocketForCommand(this.command, this.args);
 
         let client = new acodeLanguageClient.LanguageClient({type: "socket", socket});
